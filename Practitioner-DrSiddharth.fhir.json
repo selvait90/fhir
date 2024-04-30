@@ -1,0 +1,10 @@
+{
+    "resourceType": "Practitioner",
+    "name": [
+        {
+            "given": ["Siddharth"],
+            "prefix": ["Dr"]
+        }
+    ],
+    "gender": "male"
+}
