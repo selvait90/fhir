@@ -1,0 +1,46 @@
+{
+    "resourceType": "Appointment",
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://hl7.org/fhir/r4/v2/0203/index.html",
+                        "code": "SNO",
+                        "display": "Serial Number"
+                    }
+                ],
+                "text": "Appointment Number"
+            },
+            "value": "20240428-0384"
+
+        }
+    ],
+    "status": "booked",
+    "reasonReference": [
+        {
+            "reference": "Condition/<id of the condition chest paint>",
+            "type": "Condition"
+        }
+    ],
+    "participant": [
+        {
+            "type": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                            "code": "CON",
+                            "display": "consultant"
+                        }
+                    ]
+                }
+            ],
+            "actor": {
+                "reference": "<url of the doctor>",
+                "type": "Practitioner"
+            }
+        }
+    ]
+}
