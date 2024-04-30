@@ -1,0 +1,52 @@
+{
+    "resourceType": "Condition",
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "problem-list-item"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "29857009",
+                "display": "Chest pain (finding)"
+            }
+        ],
+        "text": "Chest pain from 2 days"
+    },
+    "subject": {
+        "reference": "<url of the patient Mr.Ravindranath>",
+        "type": "Patient"
+    },
+    "onsetDateTime": "2024-04-30",
+    "recorder": {
+        "reference": "<url of the Practitioner Ms.Devika>",
+        "type": "Practitioner"
+    }
+
+
+}
