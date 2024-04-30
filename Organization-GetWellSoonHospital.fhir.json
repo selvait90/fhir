@@ -1,0 +1,17 @@
+{
+    "resourceType": "Organization",
+    "name": "Get Well Soon Hospital",
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                    "code": "prov",
+                    "display": "Healthcare Provider"
+                }
+            ],
+            "text": "Hospital"
+        }
+    ]
+}
