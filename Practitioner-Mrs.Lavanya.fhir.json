@@ -1,0 +1,13 @@
+{
+    "resourceType": "Practitioner",
+    "active": true,
+    "name": [
+        {
+            "use": "usual",
+            "text": "Mrs.Lavanya",
+            "given": ["Lavanya"],
+            "prefix": ["Mrs"]
+        }
+    ],
+    "gender": "female"
+}
