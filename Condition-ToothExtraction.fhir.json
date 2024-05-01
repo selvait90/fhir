@@ -1,0 +1,56 @@
+{
+    "resourceType": "Condition",
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved",
+                "display": "Resolved"
+            }
+        ]
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis",
+                    "display": "Encounter Diagnosis"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "55162003",
+                "display": "Tooth extraction (procedure)"
+            }
+        ],
+        "text": "tooth extraction three years ago"
+    },
+    "subject": {
+        "reference": "<url of the patient Mr.Ravindranath>",
+        "type": "Patient"
+    },
+    "encounter": {
+        "reference": "<url of the patient and OPD nurse Encounter>",
+        "type": "Encounter"
+
+    },
+    "onsetDateTime": "2024-04-30",
+    "recorder": {
+        "reference": "<url of the Practitioner Ms.Devika>",
+        "type": "Practitioner"
+    }
+}
