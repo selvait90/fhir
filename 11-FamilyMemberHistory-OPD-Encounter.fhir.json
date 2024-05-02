@@ -1,0 +1,29 @@
+{
+    "resourceType": "FamilyMemberHistory",
+    "patient": {
+        "reference": "<url of the Patient Mr.Ravindranath>",
+        "type": "Patient"
+    },
+    "relationship": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "MTH",
+                "display": "Mother"
+            }
+        ]
+    },
+    "condition": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "44054006",
+                        "display": "Diabetes mellitus type 2 (disorder)"
+                    }
+                ]
+            }
+        }
+    ]
+}
