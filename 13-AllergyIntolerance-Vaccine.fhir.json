@@ -1,0 +1,41 @@
+{
+    "resourceType": "AllergyIntolerance",
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                "code": "confirmed",
+                "display": "Confirmed"
+            }
+        ]
+    },
+    "category": [
+        "medication"
+    ],
+    "patient": {
+        "reference": "<Url to the patient>",
+        "type": "Patient"
+    },
+    "encounter": {
+        "reference": "<Url of Patient and Nurse Encounter>",
+        "type": "Encounter"
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "91936005",
+                "display": "Allergy to penicillin (finding)"
+            }
+        ]
+    }
+}
