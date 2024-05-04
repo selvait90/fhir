@@ -1,0 +1,29 @@
+{
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "social-history",
+                    "display": "Social History"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "<url to the patient Mr.Ranvindranath>",
+        "type": "Patient"
+    },
+    "valueString": "Smokes around 20 cigarettes daily for the past 18 years"
+}
